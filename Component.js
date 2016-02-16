@@ -1,12 +1,11 @@
 'use strict';
 
-import Render from '../core/render';
+import Mithril from 'mithril';
 
 let {
-  v,
   redraw,
   component,
-} = Render;
+} = Mithril;
 
 const prevPropsKey = {};
 const pendingPropsKey = {};
